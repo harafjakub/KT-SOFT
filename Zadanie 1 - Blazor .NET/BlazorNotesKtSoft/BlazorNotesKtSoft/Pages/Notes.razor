@@ -1,0 +1,73 @@
+@page "/"
+@using BlazorNotesKtSoft.Models
+@inject INoteService NoteService
+@rendermode InteractiveServer
+
+<h3>Notes</h3>
+
+@if (isLoading)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <NoteForm Note="currentNote" IsEditing="isEditing" OnSave="HandleValidSubmit" OnCancel="CancelEdit" />
+    <hr />
+    <NoteList Notes="notes" OnEdit="EditNote" OnDelete="DeleteNote" />
+}
+
+@code {
+    private List<Note> notes = new();
+    private Note currentNote = new();
+    private bool isEditing = false;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync() => await LoadNotes();
+
+    private async Task LoadNotes()
+    {
+        isLoading = true;
+        notes = await NoteService.GetNotesAsync();
+        isLoading = false;
+    }
+
+    private async Task HandleValidSubmit(Note note)
+    {
+        if (isEditing)
+        {
+            await NoteService.UpdateNoteAsync(note);
+        }
+        else
+        {
+            await NoteService.AddNoteAsync(note);
+        }
+
+        await LoadNotes();
+        ResetForm();
+    }
+
+    private void EditNote(Note note)
+    {
+        currentNote = new Note
+        {
+            Id = note.Id,
+            Title = note.Title,
+            Content = note.Content
+        };
+        isEditing = true;
+    }
+
+    private void CancelEdit() => ResetForm();
+
+    private async Task DeleteNote(int id)
+    {
+        await NoteService.DeleteNoteAsync(id);
+        await LoadNotes();
+    }
+
+    private void ResetForm()
+    {
+        currentNote = new Note();
+        isEditing = false;
+    }
+}

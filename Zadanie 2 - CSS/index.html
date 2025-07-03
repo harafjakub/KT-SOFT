@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Przejdź do treści głównej</a>
+
+  <div class="dashboard">
+    <header>
+      <div class="header-left">
+        <button class="hamburger" aria-label="Toggle menu">&#9776;</button>
+        <h1>Dashboard</h1>
+      </div>
+      <div class="header-right">
+        <input type="search" class="search-input" placeholder="Szukaj..." aria-label="Szukaj" />
+        <button class="toggle-theme" aria-label="Toggle dark mode">
+          <img src="icons/dark_mode_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="Tryb ciemny" />
+        </button>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="#">Przycisk nawigacji</a></li>
+          <li><a href="#">Przycisk nawigacji</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main id="main">
+      <h2>Witamy w dashboardzie</h2>
+      <p>Zawartość główna...</p>
+
+      <section class="content-section">
+        <h3>Sekcja 1: Wprowadzenie</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.</p>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </section>
+
+      <section class="content-section">
+        <h3>Sekcja 2: Galeria</h3>
+        <div class="carousel">
+          <img src="/images/obraz1.jpg" alt="Obraz 1" />
+          <img src="/images/obraz2.jpg" alt="Obraz 2" />
+          <img src="/images/obraz3.jpg" alt="Obraz 3" />
+        </div>
+        <div class="carousel-dots"></div>
+      </section>
+
+      <section class="content-section">
+        <h3>Sekcja 3: Więcej informacji</h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </section>
+
+      <section class="content-section">
+        <h3>Sekcja 4: Podsumowanie</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl. Nullam auctor, nisl eget ultricies tincidunt, nisl nisl aliquam nisl, eget ultricies nisl nisl eget nisl.</p>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <button class="btn-outline">Kliknij mnie</button>
+      </section>
+    </main>
+  </div>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/skipLink.js"></script>
+  <script src="scripts/darkMode.js"></script>
+</body>
+</html>

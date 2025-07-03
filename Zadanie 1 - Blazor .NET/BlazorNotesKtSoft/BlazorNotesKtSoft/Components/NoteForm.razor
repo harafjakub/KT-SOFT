@@ -1,0 +1,43 @@
+﻿@using BlazorNotesKtSoft.Models
+
+<EditForm Model="@Note" OnValidSubmit="OnValidSubmitInternal">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <InputText class="form-control" @bind-Value="Note.Title" />
+        <ValidationMessage For="@(() => Note.Title)" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Content</label>
+        <InputTextArea class="form-control" @bind-Value="Note.Content" />
+        <ValidationMessage For="@(() => Note.Content)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">@((IsEditing ? "Update" : "Add") + " Note")</button>
+    @if (IsEditing)
+    {
+        <button type="button" class="btn btn-secondary ms-2" @onclick="OnCancel">Cancel</button>
+    }
+</EditForm>
+
+@code {
+    [Parameter]
+    public Note Note { get; set; }
+
+    [Parameter]
+    public EventCallback<Note> OnSave { get; set; }
+
+    [Parameter]
+    public EventCallback OnCancel { get; set; }
+
+    [Parameter]
+    public bool IsEditing { get; set; }
+
+    private async Task OnValidSubmitInternal()
+    {
+        await OnSave.InvokeAsync(Note);
+    }
+}

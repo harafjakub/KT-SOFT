@@ -9,7 +9,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer("Server=localhost;Database=BlazorNotes;Trusted_Connection=True;TrustServerCertificate=True;"));
+    options.UseSqlite("Data Source=blazornotes.db"));
 
 builder.Services.AddScoped<INoteService, NoteService>();
 

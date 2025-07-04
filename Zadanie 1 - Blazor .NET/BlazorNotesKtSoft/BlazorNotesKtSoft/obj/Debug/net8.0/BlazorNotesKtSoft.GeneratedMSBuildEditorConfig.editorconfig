@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorNotesKtSoft
 build_property.RootNamespace = BlazorNotesKtSoft
-build_property.ProjectDir = C:\Users\Jakub\Desktop\kt-soft\Zadanie 1 - Blazor .NET\BlazorNotesKtSoft\BlazorNotesKtSoft\
+build_property.ProjectDir = /Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jakub\Desktop\kt-soft\Zadanie 1 - Blazor .NET\BlazorNotesKtSoft\BlazorNotesKtSoft
+build_property.MSBuildProjectDirectory = /Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Jakub/Desktop/kt-soft/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Layout/MainLayout.razor]
+[/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-build_metadata.AdditionalFiles.CssScope = b-ijosexs94f
+build_metadata.AdditionalFiles.CssScope = b-nc3hzdde2u
 
-[C:/Users/Jakub/Desktop/kt-soft/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Layout/NavMenu.razor]
+[/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-build_metadata.AdditionalFiles.CssScope = b-43glke1uun
+build_metadata.AdditionalFiles.CssScope = b-7ptsnoegol
 
-[C:/Users/Jakub/Desktop/kt-soft/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Pages/Notes.razor]
+[/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Pages/Notes.razor]
 build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90ZXMucmF6b3I=
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm90ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Desktop/kt-soft/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/App.razor]
+[/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Desktop/kt-soft/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Components/NoteForm.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOb3RlRm9ybS5yYXpvcg==
+[/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Components/NoteForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ob3RlRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Desktop/kt-soft/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Components/NoteList.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xOb3RlTGlzdC5yYXpvcg==
+[/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Components/NoteList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ob3RlTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Desktop/kt-soft/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Routes.razor]
+[/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jakub/Desktop/kt-soft/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/_Imports.razor]
+[/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

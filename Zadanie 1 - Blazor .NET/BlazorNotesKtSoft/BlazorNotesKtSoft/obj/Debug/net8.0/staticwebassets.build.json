@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3SN5iRaK1osNVmuk2EVSECc3w6k2XZHsnXjhHRc1pQY=",
+  "Hash": "jfs68nN2GIBO4Wn0NJ+cmk0Sr8Rl/NvoqEcicGuwu48=",
   "Source": "BlazorNotesKtSoft",
   "BasePath": "_content/BlazorNotesKtSoft",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BlazorNotesKtSoft\\wwwroot",
+      "Name": "BlazorNotesKtSoft/wwwroot",
       "Source": "BlazorNotesKtSoft",
-      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\",
+      "ContentRoot": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/",
       "BasePath": "_content/BlazorNotesKtSoft",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorNotesKtSoft.styles.css",
+      "Identity": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/obj/Debug/net8.0/scopedcss/bundle/BlazorNotesKtSoft.styles.css",
       "SourceId": "BlazorNotesKtSoft",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/BlazorNotesKtSoft",
       "RelativePath": "BlazorNotesKtSoft.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorNotesKtSoft.styles.css"
+      "OriginalItemSpec": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/obj/Debug/net8.0/scopedcss/bundle/BlazorNotesKtSoft.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorNotesKtSoft.bundle.scp.css",
+      "Identity": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/obj/Debug/net8.0/scopedcss/projectbundle/BlazorNotesKtSoft.bundle.scp.css",
       "SourceId": "BlazorNotesKtSoft",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/BlazorNotesKtSoft",
       "RelativePath": "BlazorNotesKtSoft.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorNotesKtSoft.bundle.scp.css"
+      "OriginalItemSpec": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/obj/Debug/net8.0/scopedcss/projectbundle/BlazorNotesKtSoft.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\app.css",
+      "Identity": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/app.css",
       "SourceId": "BlazorNotesKtSoft",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\",
+      "ContentRoot": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/",
       "BasePath": "_content/BlazorNotesKtSoft",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\app.css"
+      "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "BlazorNotesKtSoft",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\",
+      "ContentRoot": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/",
       "BasePath": "_content/BlazorNotesKtSoft",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "BlazorNotesKtSoft",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\",
+      "ContentRoot": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/",
       "BasePath": "_content/BlazorNotesKtSoft",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\favicon.png",
+      "Identity": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/favicon.png",
       "SourceId": "BlazorNotesKtSoft",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\kt-soft\\Zadanie 1 - Blazor .NET\\BlazorNotesKtSoft\\BlazorNotesKtSoft\\wwwroot\\",
+      "ContentRoot": "/Users/jakubharaf/KT-SOFT/Zadanie 1 - Blazor .NET/BlazorNotesKtSoft/BlazorNotesKtSoft/wwwroot/",
       "BasePath": "_content/BlazorNotesKtSoft",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot/favicon.png"
     }
   ]
 }
